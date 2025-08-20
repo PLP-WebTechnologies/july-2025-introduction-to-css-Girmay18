@@ -1,0 +1,106 @@
+/* ============================= */
+/* Universal Selector */
+/* Apply box-sizing to all elements for easier layout control */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ============================= */
+/* Element Selector */
+/* Style all paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* ============================= */
+/* ID Selector */
+/* Header with unique ID */
+#main-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 25px; /* padding inside header */
+    text-align: center;
+    border-bottom: 4px solid #333;
+}
+
+/* ============================= */
+/* Descendant Selector */
+/* Navigation links inside nav */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* ============================= */
+/* Pseudo-class Selector */
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    color: #ffeb3b;
+    text-decoration: underline;
+}
+
+/* ============================= */
+/* Class Selector */
+/* Card containers */
+.card {
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 20px; /* inside spacing */
+    margin: 15px;  /* outside spacing */
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Headings inside cards only */
+.card h2 {
+    color: #333;
+    margin-bottom: 12px;
+}
+
+/* Buttons inside cards */
+.card button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Button hover effect */
+.card button:hover {
+    background-color: #45a049;
+}
+
+/* ============================= */
+/* Element + Class Combination Selector */
+/* Headings inside main content */
+main h1, main h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+/* ============================= */
+/* Footer with class */
+.site-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 4px solid #4CAF50;
+}
